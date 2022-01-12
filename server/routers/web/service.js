@@ -552,7 +552,7 @@ exports.setjoin = async(req, res) => {
                 '系统通知',
                 req.body.content_id,
                 req.body.contentname,
-                '你已经成功参与',
+                '你已成功参与',
                 req.body.type
             )
             setnotice(
